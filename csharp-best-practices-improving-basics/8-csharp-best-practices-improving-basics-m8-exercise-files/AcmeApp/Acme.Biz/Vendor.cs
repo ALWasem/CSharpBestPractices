@@ -65,7 +65,7 @@ namespace Acme.Biz
             var operationResult = new OperationResult(success, orderText);
             return operationResult;
         }
-
+         
         /// <summary>
         /// Sends a product order to the vendor.
         /// </summary>
